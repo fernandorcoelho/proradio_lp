@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ProRadio Vet - Medicina Veterinária Diagnóstica</title>
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <meta name="description" content="Medicina Veterinária Diagnóstica">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="ProRadio Vet">
+  <meta name="copyright" content="ProRadio Vet">
 
   <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="ProRadio Vet - Medicina Veterinária Diagnóstica">
@@ -26,14 +30,17 @@
   <meta name="twitter:image" content="https://www.seusite.com/assets/logo.webp">
   <meta name="twitter:image:alt" content="Logo da ProRadio Vet">
 
-  <!-- Favicon and Apple Touch Icon -->
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="./assets/logo.webp">
+  <!-- Favicon and Icons -->
+  <link rel="icon" href="assets/favicon.ico" sizes="any">
+  <link rel="icon" href="assets/favicon-16x16.ico" sizes="16x16" type="image/x-icon">
+  <link rel="icon" href="assets/favicon-32x32.ico" sizes="32x32" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="icon" href="assets/android-chrome-192x192.png" sizes="192x192" type="image/png">
+  <link rel="icon" href="assets/android-chrome-512x512.png" sizes="512x512" type="image/png">
 
   <!-- Manifest and Theme Color -->
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="theme-color" content="#fffi">
+  <link rel="manifest" href="assets/site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
 
   <!-- Stylesheets -->
   <link href="css/output.css" rel="stylesheet">
@@ -44,7 +51,20 @@
 </head>
 
 <body>
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <header>
+    <picture>
+      <source srcset="assets/logo.webp" type="image/webp">
+      <source srcset="assets/logo.png" type="image/png">
+      <img src="assets/logo.png" alt="ProRadio Vet Logo" class="logo">
+    </picture>
+    <h1>ProRadio Vet</h1>
+    <h2>Medicina Veterinária Diagnóstica</h2>
+  </header>
+
+  <main>
+    <p>Hello world! This is HTML5 Boilerplate.</p>
+    <a href="#more-info" class="btn">Saiba Mais</a>
+  </main>
 </body>
 
 </html>

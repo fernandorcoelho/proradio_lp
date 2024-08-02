@@ -1,0 +1,40 @@
+/* styles.css */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff; /* Background branco */
+  color: #333333; /* Cor do texto */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', sans-serif;
+  color: #2b5797; /* Cor azul escuro da logo */
+  font-weight: 700; /* Texto em negrito */
+}
+
+a {
+  color: #3CB371; /* Cor verde da logo */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2a9d8f; /* Cor verde escuro no hover */
+  text-decoration: underline;
+}
+
+.logo {
+  width: 200px; /* Ajuste conforme necessário */
+  height: auto;
+}
+
+.btn {
+  background-color: #3CB371; /* Cor verde da logo */
+  color: #ffffff; /* Texto branco */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #2a9d8f; /* Cor verde escuro no hover */
+}
