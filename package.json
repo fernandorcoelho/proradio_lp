@@ -1,0 +1,29 @@
+{
+  "name": "proradio_lp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "npx tailwindcss -i ./css/tailwind.css -o ./css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandorcoelho/proradio_lp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandorcoelho/proradio_lp/issues"
+  },
+  "homepage": "https://github.com/fernandorcoelho/proradio_lp#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "eslint": "^9.8.0",
+    "globals": "^15.9.0"
+  }
+}
