@@ -1,4 +1,17 @@
-/* styles.css */
+/* src/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+* {
+  box-sizing: border-box; /* Para que padding e border sejam incluídos no tamanho total dos elementos */
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased; /* Suavização de fonte para Webkit (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* Suavização de fonte para Firefox */
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #ffffff; /* Background branco */
@@ -27,14 +40,17 @@ a:hover {
 }
 
 .btn {
-  background-color: #3CB371; /* Cor verde da logo */
-  color: #ffffff; /* Texto branco */
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  @apply bg-green-500 text-white py-2 px-4 rounded hover:bg-green-700;
 }
 
-.btn:hover {
-  background-color: #2a9d8f; /* Cor verde escuro no hover */
+.link {
+  @apply text-green-500 hover:text-green-700 underline;
+}
+
+.header-title {
+  @apply text-blue-900 font-bold;
+}
+
+.text-muted {
+  @apply text-gray-500;
 }
